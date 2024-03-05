@@ -1,40 +1,39 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "${group}",
-		"id": "example_mod",
+		"group": "net.awakaxis",
+		"id": "replenish",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Replenish",
+			"description": "Adds a neat little enchant that replaces harvested crops.",
 			"contributors": {
-				"Your name here": "Owner"
+				"awakaxis": "Author",
+				"hypixel skyblock": "shamelessly stole idea from"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"sources": "CHANGE LATER"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/replenish/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "net.awakaxis.replenish.common.Replenish"
 		},
 		"depends": [
 			{
 				"id": "quilt_loader",
-				"versions": ">=0.19.1"
+				"versions": ">=0.17.0-"
 			},
 			{
 				"id": "quilted_fabric_api",
-				"versions": ">=7.0.2"
+				"versions": ">=4.0.0-"
 			},
 			{
 				"id": "minecraft",
-				"versions": ">=1.20"
+				"versions": ">=1.19.2"
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "replenish.mixins.json"
 }
