@@ -60,10 +60,10 @@ public abstract class BlockMixin {
                 }
                 world.setBlockState(pos, block2.withAge(0));
             }
-            if (world instanceof ServerWorld) {
-                drops.forEach(_stack -> Block.dropStack(world, pos, _stack));
-                state.onStacksDropped((ServerWorld) world, pos, stack, true);
-            }
+        }
+        if (world instanceof ServerWorld) {
+            drops.forEach(_stack -> Block.dropStack(world, pos, _stack));
+            state.onStacksDropped((ServerWorld) world, pos, stack, true);
         }
         ci.cancel();
     }
