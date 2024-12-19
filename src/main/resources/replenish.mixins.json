@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.awakaxis.replenish.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"BlockMixin",
+		"CropBlockAccessor",
+		"FarmlandBlockMixin",
+		"LivingEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
