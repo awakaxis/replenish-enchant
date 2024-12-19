@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack;
 public class ReplenishEnchantment extends Enchantment {
 
     public ReplenishEnchantment() {
-        super(Rarity.UNCOMMON, EnchantmentTarget.BREAKABLE, new EquipmentSlot[] {EquipmentSlot.MAINHAND});
+        super(Rarity.VERY_RARE, EnchantmentTarget.BREAKABLE, new EquipmentSlot[] {EquipmentSlot.MAINHAND});
     }
 
     @Override

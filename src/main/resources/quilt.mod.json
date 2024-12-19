@@ -6,7 +6,7 @@
 		"version": "${version}",
 		"metadata": {
 			"name": "Replenish",
-			"description": "Adds a neat little enchant that replaces harvested crops.",
+			"description": "Adds some farming related enchantments.",
 			"contributors": {
 				"awakaxis": "Author",
 				"hypixel skyblock": "shamelessly stole idea from"

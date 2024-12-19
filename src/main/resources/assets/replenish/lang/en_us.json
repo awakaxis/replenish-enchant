@@ -1,4 +1,6 @@
 {
     "enchantment.replenish.replenish": "Replenish",
-    "enchantment.replenish.replenish.desc": "Replaces harvested crops with seeds from your inventory."
+    "enchantment.replenish.replenish.desc": "Crops you break will be replanted automatically.",
+    "enchantment.replenish.green_foot": "Green Foot",
+    "enchantment.replenish.green_foot.desc": "Prevents trampling crops."
 }
